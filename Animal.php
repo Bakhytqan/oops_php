@@ -6,6 +6,7 @@ abstract class Animal {
     
     public $age;
     public $name;
+	public $weight;
 }
 
 ?>
