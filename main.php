@@ -14,7 +14,6 @@ $a = new Dog();
 // $a->type = Dog::TYPE_ALABAI;
 
 // print_r($a);
-
 $a->grow();
 
 $b = new RealMountain;
@@ -24,4 +23,10 @@ $b->grow();
 $c = new Dollar;
 $c->grow();
 
+
+$attrCat = new Cat;
+$attrCat->age = 2;
+$attrCat->name = 'Mickys cat';
+
+$attrCat->move();
 
